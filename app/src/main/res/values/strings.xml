@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Timer for COR long treatment</string>
+    <string name="start_treatment">Start treatment</string>
+    <string name="audio_file">Audio file</string>
+    <string name="audio_track">Audio track</string>
+    <string name="select_track">select track</string>
+    <string name="centering_and_contact_estabilished">Centering and contact estabilished</string>
+    <string name="centering_then_contact_with_the_receiver">Centering then contact with the receiver</string>
+    <string name="position_1">Top of the head</string>
+    <string name="position_2">Eyes</string>
+    <string name="position_3">Temples</string>
+    <string name="position_4">Ears</string>
+    <string name="position_5">Base of the head</string>
+    <string name="position_6">Nape and forehead</string>
+    <string name="position_7">Throat</string>
+    <string name="position_8">Lung meridians</string>
+    <string name="position_9">Spleen</string>
+    <string name="position_10">Stomach</string>
+    <string name="position_11">Liver</string>
+    <string name="position_12">Above and above the navel</string>
+    <string name="position_13">Pubis</string>
+    <string name="position_14">Heart (Cross hands)</string>
+    <string name="position_15">Back lung (far)</string>
+    <string name="position_16">Back lung (near)</string>
+    <string name="position_17">Back spleeen (far)</string>
+    <string name="position_18">Back liver (near)</string>
+    <string name="position_19">Lower back</string>
+    <string name="position_20">Tailbone (Cross hands)</string>
+    <string name="position_21">Popliteus cavities</string>
+    <string name="position_22">Feet</string>
+    <string name="position_23">Balance C7-Tailbone</string>
+</resources>

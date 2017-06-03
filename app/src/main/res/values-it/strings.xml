@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Campanello per trattamento completo COR</string>
+    <string name="audio_file">Traccia musicale</string>
+    <string name="audio_track">Traccia musicale</string>
+    <string name="centering_and_contact_estabilished">Centratura e presa di contatto eseguite</string>
+    <string name="centering_then_contact_with_the_receiver">Centratura e presa di contatto</string>
+    <string name="position_1">Sommita del capo</string>
+    <string name="position_10">Stomaco</string>
+    <string name="position_11">Fegato</string>
+    <string name="position_12">Sopra e sotto l\'ombelico</string>
+    <string name="position_13">Pube</string>
+    <string name="position_14">Cuore (Mani a croce)</string>
+    <string name="position_15">Schiena polmone (lontano)</string>
+    <string name="position_16">Schiena polmone (vicino)</string>
+    <string name="position_17">Schiena milza (lontano)</string>
+    <string name="position_18">Schiena milza (vicino)</string>
+    <string name="position_19">Lombi</string>
+    <string name="position_2">Occhi</string>
+    <string name="position_20">Coccige (Mani a croce)</string>
+    <string name="position_21">Cavo Popliteo</string>
+    <string name="position_22">Piedi</string>
+    <string name="position_23">Bilanciamento 7a cervicale - coccige</string>
+    <string name="position_3">Tempie</string>
+    <string name="position_4">Orecchie</string>
+    <string name="position_5">Base del cranio</string>
+    <string name="position_6">Nuca e fronte</string>
+    <string name="position_7">Gola</string>
+    <string name="position_8">Meridiano del polmone</string>
+    <string name="position_9">Milza</string>
+    <string name="select_track">seleziona traccia</string>
+    <string name="start_treatment">Inizia trattamento</string>
+</resources>

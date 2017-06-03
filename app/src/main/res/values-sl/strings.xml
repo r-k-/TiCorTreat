@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zvonec za COR obravnavo</string>
+    <string name="audio_file">Glasbena podlaga</string>
+    <string name="audio_track">Glasbena podlaga</string>
+    <string name="centering_and_contact_estabilished">Centracija in stik vzpostavljen</string>
+    <string name="centering_then_contact_with_the_receiver">Centracija in stik</string>
+    <string name="position_1">Vrh glave</string>
+    <string name="position_10">\\017Delodec</string>
+    <string name="position_11">Jetra</string>
+    <string name="position_12">Nad in pod popkom</string>
+    <string name="position_13">Pubis</string>
+    <string name="position_14">Srce (Kri\\017Eaj roke)</string>
+    <string name="position_15">Hrbet plju\\010Da (dale\\010D)</string>
+    <string name="position_16">Hrbet plju\\010Da (blizu)</string>
+    <string name="position_17">Hrbet vranica (dale\\010D)</string>
+    <string name="position_18">Hrbet jetra (blizu)</string>
+    <string name="position_19">Boki</string>
+    <string name="position_2">O\\10Di</string>
+    <string name="position_20">Repek (Kri\\017Eaj roke)</string>
+    <string name="position_21">Poplitejske udolbine</string>
+    <string name="position_22">Podplati</string>
+    <string name="position_23">Uravnove\\0161enje 7.vretence - Repek</string>
+    <string name="position_3">Sence</string>
+    <string name="position_4">U\\0161esa</string>
+    <string name="position_5">Baza glave</string>
+    <string name="position_6">Atlas in \\01Delo</string>
+    <string name="position_7">Vrat</string>
+    <string name="position_8">Plju\\01D meridian</string>
+    <string name="position_9">Vranica</string>
+    <string name="select_track">izberi glasbo</string>
+    <string name="start_treatment">Za\\01Dni obravnavo</string>
+</resources>
