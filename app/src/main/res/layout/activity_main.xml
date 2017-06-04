@@ -43,18 +43,20 @@
         android:layout_marginTop="36dp"
         android:id="@+id/treatmentStartButton" />
 
-    <Button
-        android:text="@string/centering_and_contact_estabilished"
+    <ImageButton
+        android:id="@+id/stepStartButton"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/treatmentStartButton"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_below="@+id/treatmentStartButton"
+        android:layout_marginBottom="48dp"
         android:layout_marginTop="12dp"
-        android:id="@+id/stepStartButton"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
         android:visibility="invisible"
-        tools:layout_marginTop="24dp"
-        android:layout_marginBottom="48dp" />
+        tools:layout_marginTop="24dp" />
 
     <TextView
         android:text="@string/centering_then_contact_with_the_receiver"
