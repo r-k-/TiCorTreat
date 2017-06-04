@@ -157,7 +157,11 @@ public class MainActivity extends Activity {
             if (id < 24) {
                 Message m = new Message();
                 m.setData(RingBell.getInstance().getRingBundle());
-                this.sendMessageDelayed(m, 2000);
+                this.sendMessageDelayed(m, 180000);
+            } else if (id == 24) {
+                positionLabel.setText(R.string.end_text);
+                stepStartButton.setText(R.string.Stop);
+                stepStartButton.setEnabled(true);
             }
         }
     }
@@ -217,12 +221,20 @@ public class MainActivity extends Activity {
         stepStartButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                stepStartButton.setEnabled(false);
-                startButton.setEnabled(false);
+                if (stepStartButton.getText().equals("Stop")) {
+                    if (mediaPlayer != null && mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    stepStartButton.setText(R.string.centering_and_contact_estabilished);
+                    positionLabel.setText(R.string.centering_then_contact_with_the_receiver);
+                    stepStartButton.setEnabled(false);
+                } else {
+                    stepStartButton.setEnabled(false);
+                    startButton.setEnabled(false);
 
-                Message m = new Message();
-                m.setData(RingBell.getInstance().getRingBundle());
-                handler.sendMessageDelayed(m, 100);
+                    Message m = new Message();
+                    m.setData(RingBell.getInstance().getRingBundle());
+                    handler.sendMessageDelayed(m, 100);
+                }
             }
         });
 
@@ -233,6 +245,8 @@ public class MainActivity extends Activity {
                 if (uri != null) {
                     stepStartButton.setVisibility(View.VISIBLE);
                     stepStartButton.setEnabled(true);
+                    startButton.setEnabled(false);
+
                     mediaPlayer = MediaPlayer.create(context, uri);
                     mediaPlayer.start();
                     mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
@@ -242,7 +256,6 @@ public class MainActivity extends Activity {
                         }
                     });
                     mediaPlayer.setLooping(false);
-                    startButton.setEnabled(false);
                 }
             }
         });

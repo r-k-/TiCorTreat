@@ -30,4 +30,6 @@
     <string name="position_9">Vranica</string>
     <string name="select_track">izberi glasbo</string>
     <string name="start_treatment">Za\\01Dni obravnavo</string>
+    <string name="Stop">Konec</string>
+    <string name="end_text">Po\\010Disti auro in zahvalise energiji.</string>
 </resources>

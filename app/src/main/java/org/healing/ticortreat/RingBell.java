@@ -19,21 +19,18 @@ class RingBell implements Runnable    {
         return instance;
     }
 
-    private MediaPlayer player;
     private Bundle ringBundle = new Bundle();
     Bundle getRingBundle() {
         return ringBundle;
     }
+    private Context context;
 
     void setupRingBell(Context context) {
+        this.context = context;
         if (ringBundle.getInt("Id") == 0)
             ringBundle.putInt("Id", 1);
         else if (ringBundle.getInt("Id") > 23)
             ringBundle.putInt("Id", 1);
-//        if (mediaPlayer != null)
-//            this.player = mediaPlayer;
-//        else
-            this.player = MediaPlayer.create(context, R.raw.bell);
     }
 
     @Override
@@ -43,6 +40,7 @@ class RingBell implements Runnable    {
         ringBundle.remove("Id");
         ringBundle.putInt("Id", id);
 
+        MediaPlayer player = MediaPlayer.create(context, R.raw.bell);
         player.start();
         player.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override

@@ -30,4 +30,6 @@
     <string name="position_9">Milza</string>
     <string name="select_track">seleziona traccia</string>
     <string name="start_treatment">Inizia trattamento</string>
+    <string name="Stop">Fine</string>
+    <string name="end_text">Pulisci l\'aura e ringrazia l\'energia.</string>
 </resources>
